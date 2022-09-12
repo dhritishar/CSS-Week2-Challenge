@@ -1,4 +1,8 @@
+html {
+    scroll-behavior: smooth;
+}
 /* Universal Selector */
+
 *{
     box-sizing:border-box;
     padding:0;
@@ -161,6 +165,10 @@ button {
 
 button:hover {
     opacity: 1;
+}
+
+.tag1 {
+    text-align: left;
 }
 
 @media only screen and (max-width: 857px) {
