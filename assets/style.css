@@ -42,7 +42,7 @@ h1 {
 
 }
 /*This will style the about me, work, contact me and resume links on the top right*/
-ul {
+nav ul {
     display: flex;
     padding-top: 20px;
     padding-right: 50px;
@@ -103,7 +103,7 @@ img {
     font-size: 60px;
     font-family: fantasy;
     text-align: right;
-    border-right: 5px solid rgb(6, 6, 50);
+    border-right: 5px solid rgb(84, 157, 160);
     grid-area: aboutme;
     color:rgb(84, 157, 160);
 }
@@ -112,7 +112,7 @@ img {
     font-family: fantasy;
     grid-row: 2/5;
     text-align: right;
-    border-right: 5px solid rgb(6, 6, 50);
+    border-right: 5px solid rgb(84, 157, 160);
     grid-area: work;
     color:rgb(84, 157, 160);
 }
@@ -121,7 +121,7 @@ img {
     font-family: fantasy;
     grid-row: 5/6;
     text-align: right;
-    border-right: 5px solid rgb(6, 6, 50);
+    border-right: 5px solid rgb(84, 157, 160);
     grid-area: contactme;
     color:rgb(84, 157, 160);
 }
@@ -131,6 +131,7 @@ img {
     text-align: center;
     text-indent: 30px;
     grid-area: project1;
+    color:rgb(84, 157, 160);
 }
 #project2 {
     grid-column: 2/4;
@@ -172,6 +173,27 @@ button:hover {
 
 .tag {
     text-align: center;
+}
+
+h2 {
+    font-family: cursive;
+    color:rgb(84, 157, 160);
+    
+}
+
+ul2 {
+    display: flex;
+    font-style: italic;
+    color:rgb(84, 157, 160);
+    text-decoration: none;
+    justify-content: space-between;
+    width: 500px;
+    font-size: 100%;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+ul2 a:hover {
+    color:lightgray;
 }
 
 @media only screen and (max-width: 857px) {
