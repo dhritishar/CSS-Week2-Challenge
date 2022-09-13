@@ -11,7 +11,7 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    background-color: azure;
+    background-color: rgb(11, 99, 99);
 }
 
 /* Element Selector */
@@ -22,15 +22,15 @@ header {
     justify-content:space-between;
     align-content: center;
     padding: 1%;
-    background-color: rgb(30, 30, 111);
-    color: rgb(24, 10, 105);
+    background-color: rgb(11, 99, 99);
+    color: rgb(7, 46, 37);
 }
 .card {
     display:flex;
     padding-left: 100px; 
-    background-color: rgb(219, 218, 223);
+    background-color: rgb(84, 157, 160);
     border-style: solid;
-    border-color: rgb(219, 218, 223);
+    border-color: rgb(84, 157, 160);
     margin-left: -30px; /* this helps to overflow the background box*/
 }
 
@@ -42,7 +42,7 @@ h1 {
 
 }
 /*This will style the about me, work, contact me and resume links on the top right*/
-ul {
+nav ul {
     display: flex;
     padding-top: 20px;
     padding-right: 50px;
@@ -52,7 +52,7 @@ ul {
 }
 
 nav a {
-    color:rgb(219, 218, 223);
+    color:rgb(7, 46, 37);
     text-decoration:underline;
     text-decoration-thickness: 3px;
 
@@ -103,24 +103,27 @@ img {
     font-size: 60px;
     font-family: fantasy;
     text-align: right;
-    border-right: 5px solid rgb(6, 6, 50);
+    border-right: 5px solid rgb(84, 157, 160);
     grid-area: aboutme;
+    color:rgb(84, 157, 160);
 }
 #work {
     font-size: 60px;
     font-family: fantasy;
     grid-row: 2/5;
     text-align: right;
-    border-right: 5px solid rgb(6, 6, 50);
+    border-right: 5px solid rgb(84, 157, 160);
     grid-area: work;
+    color:rgb(84, 157, 160);
 }
 #contactme {
     font-size: 60px;
     font-family: fantasy;
     grid-row: 5/6;
     text-align: right;
-    border-right: 5px solid rgb(6, 6, 50);
+    border-right: 5px solid rgb(84, 157, 160);
     grid-area: contactme;
+    color:rgb(84, 157, 160);
 }
 #project1 {
     padding-top: 20px;
@@ -128,6 +131,7 @@ img {
     text-align: center;
     text-indent: 30px;
     grid-area: project1;
+    color:rgb(84, 157, 160);
 }
 #project2 {
     grid-column: 2/4;
@@ -167,8 +171,29 @@ button:hover {
     opacity: 1;
 }
 
-.tag1 {
-    text-align: left;
+.tag {
+    text-align: center;
+}
+
+h2 {
+    font-family: cursive;
+    color:rgb(84, 157, 160);
+    
+}
+
+ul2 {
+    display: flex;
+    font-style: italic;
+    color:rgb(84, 157, 160);
+    text-decoration: none;
+    justify-content: space-between;
+    width: 500px;
+    font-size: 100%;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+ul2 a:hover {
+    color:lightgray;
 }
 
 @media only screen and (max-width: 857px) {
