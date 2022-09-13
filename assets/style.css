@@ -187,29 +187,18 @@ ul2 {
     color:rgb(84, 157, 160);
     text-decoration: none;
     justify-content: space-between;
-    width: 500px;
-    font-size: 100%;
+    width: 1000px;
+    font-size: 200%;
     padding-left: 100px;
-    padding-top: 20px;
+    padding-top: 60px;
 }
 ul2 a:hover {
     color:lightgray;
 }
 
-@media only screen and (max-width: 857px) {
+@media screen and (max-width: 857px) {
     .container2 {
 
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 2fr 1fr 2fr 2fr 2fr 2fr 2fr 2fr 1fr;
-        grid-template-areas: 
-        "aboutme"
-        "project1"
-        "work"
-        "project2"
-        "project3"
-        "project4"
-        "project5"
-        "project6"
-        "contactme";
+        width:100%;
     }
 }
